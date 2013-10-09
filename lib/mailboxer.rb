@@ -4,7 +4,7 @@ module Mailboxer
   end
 
   mattr_accessor :default_from
-  @@default_from = "no-reply@mailboxer.com"
+  @@default_from = "GreatSpaces <no-reply@findgreatspaces.com>"
   mattr_accessor :uses_emails
   @@uses_emails = true
   mattr_accessor :mailer_wants_array
